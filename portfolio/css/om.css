@@ -1,0 +1,82 @@
+@media (max-width: 700px) {
+
+    .om_tekst {
+        margin-left: 16%;
+        margin-right: 16%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+      }
+
+      .hvem_er_jeg {
+        font-size: 8vw;
+        padding-left: 42%;
+        margin-top: 80px;
+        margin-bottom: -13%;
+      }
+
+      .CV_link {
+        color: #ED5123;
+        font-family: "aileronheavy", sans-serif;
+        text-decoration: none;
+        transition: font-weight 0.3s;
+        margin-left: 16%;
+        margin-bottom: 15%;
+    }
+  
+  }
+
+main {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+
+
+  .boletti {
+    width: 100%;
+    display: block;
+    height: auto;
+  }
+
+
+.CV_link {
+    color: #ED5123;
+    font-family: "aileronheavy", sans-serif;
+    text-decoration: none;
+    transition: font-weight 0.3s;
+    margin-bottom: 15%;
+}
+
+a:hover {
+    border-bottom: 1.5px solid #ED5123;
+    padding-bottom: 3px;
+}
+
+
+/* DESKTOP VIEW */
+@media (min-width: 700px) {
+
+    .logo {
+        display: none;
+      }
+
+.grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.om {
+    margin-top: 35%;
+    margin-right: 10%;
+    margin-left: 10px;
+}
+
+.hvem_er_jeg {
+    font-size: 4vw;
+    padding-left: 42%;
+    margin-top: 80px;
+    margin-bottom: -13%;
+  }
+  
+  }
+  

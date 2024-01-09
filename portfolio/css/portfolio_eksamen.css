@@ -1,0 +1,54 @@
+@media (max-width: 700px) {
+
+    .h1_portfolio {
+        margin-top: 50px;
+        margin-bottom: 60px;
+    }
+
+    p {
+        margin-top: 40px;
+    }
+
+   }
+
+main {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.wire {
+    width: 100%;
+    display: block;
+    height: auto;
+  }
+
+  .h1_portfolio {
+    margin-bottom: 60px;
+}
+
+
+  h2 {
+    margin-top: 50px;
+  }
+
+  .h2_moodboard {
+    margin-bottom: -10px;
+  }
+
+  .h2_wireframe {
+    margin-bottom: -40px;
+}
+
+
+  p {
+    border-bottom: 1px solid #ED5123;
+    margin-top: 30px;
+    padding-bottom: 15px;
+  }
+
+  #grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 60px;
+}

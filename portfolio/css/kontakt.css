@@ -1,0 +1,56 @@
+main {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  .h1_kontakt {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ED5123;
+  }
+
+  input {
+    width: 100%;
+    font-size: 15px;
+    font-family: "aileronlight", sans-serif;
+    color: #ED5123;
+    border: none;
+    padding: 6px 6px;
+    margin-bottom: 20px;
+  }
+
+  textarea {
+    width: 100%;
+    font-size: 15px;
+    font-family: "aileronlight", sans-serif;
+    color: #ED5123;
+    border: none;
+    padding: 6px 6px;
+    margin-bottom: 20px;
+    resize: none;
+  }
+
+  input:focus-within {
+    outline: none;
+  }
+
+  textarea:focus-within {
+    outline: none;
+  }
+
+  button {
+    background-color: #fff;
+    color: #ED5123;
+    font-family: "aileronlight", sans-serif;
+    padding: 7px;
+    border: none;
+    text-align: left;
+    display: flex;
+    margin: auto;
+    margin-bottom: 160px;
+  }
+
+  button:hover {
+    opacity: 80%;
+    cursor: pointer;
+  }

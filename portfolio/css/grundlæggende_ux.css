@@ -1,0 +1,167 @@
+@media (max-width: 700px) {
+
+    main {
+        margin-left: 10%;
+        margin-right: 10%;
+      }
+
+      .wire2 {
+        width: 30%;
+        display: block;
+        height: auto; 
+    }
+
+    .grid_0-1 .vertical-center {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%; 
+    }
+
+    .grid_0-1 .vertical-center p {
+        text-align: center; 
+        margin-top: 10px;
+        font-size: 10px;
+    }
+
+    .grid_0-1 .vertical-center p:hover {
+        font-weight: bolder;
+    }
+
+
+      a {
+        text-decoration: none;
+      }
+    
+    
+    .grid_1-1 {
+        display: grid;
+        gap: 20px;
+        margin-top: 60px;
+    }
+    
+    .wire {
+        width: 100%;
+        display: block;
+        height: auto;
+      }
+
+      .wire1 {
+        width: 100%;
+        display: block;
+        height: auto; 
+    }
+    
+      .wire:hover {
+        opacity: 80%;
+      }
+
+      p {
+        margin-bottom: 10%;
+      }
+
+      h2 {
+        margin-top: 3%;
+        margin-bottom: 2%;
+        font-size: 25px;
+      }
+
+      .h1_emnesite {
+        margin-top: 50px;
+        margin-bottom: 60px;
+      }
+
+}
+
+.links {
+    color: #ED5123;
+    font-family: "aileronbold", sans-serif;
+    text-decoration: none;
+    transition: font-weight 0.3s;
+    margin-bottom: 15%;
+    font-size: 13px;
+}
+
+a:hover {
+    font-family: "aileronheavy", sans-serif;
+}
+
+h1{
+    font-size: 45px;
+}
+
+@media (min-width: 700px) {
+    main {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .grid_0-1 {
+        display: grid;
+        grid-template-columns: 5fr 1fr;
+        gap: 50px;
+        margin-top: 50px;
+        margin-bottom: 120px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #ED5123;
+    }
+
+    .grid_0-1 .vertical-center {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%; 
+    }
+
+    .grid_0-1 .vertical-center a {
+        text-align: center; 
+        margin-top: 10px;
+    }
+
+    .grid_0-1 .vertical-center p:hover {
+        font-weight: bolder;
+    }
+
+    .grid_1-1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        margin-top: 60px;
+    }
+
+    .wire {
+        width: 100%;
+        display: block;
+        height: auto; 
+    }
+
+    .wire1 {
+        width: 100%;
+        display: block;
+        height: auto; 
+    }
+
+    .wire2 {
+        width: 50%;
+        display: block;
+        height: auto; 
+    }
+
+    .wire:hover {
+        opacity: 0.8;
+    }
+
+    h2 {
+        margin-top: 4%;
+        margin-bottom: 2%;
+        font-size: 25px;
+    }
+
+    p {
+        margin: 0%;
+    }
+
+
+}
